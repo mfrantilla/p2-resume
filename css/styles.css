@@ -19,6 +19,7 @@ h2 {
 	color: #819E45;
 	font-family: 'Carrois Gothic SC', sans-serif;
 	font-size: 30px;
+	border-bottom: 2px solid;
 
 }
 
@@ -55,6 +56,10 @@ section img+p {
 
 }
 
+.infobox {
+	background: #aaa;
+}
+
 .bubble {
 	padding: 20px 0 0 20px;
 	margin-right: 0px;
@@ -69,6 +74,3 @@ section img+p {
 	border-radius: 10px;
 }
 
-#info {
-	background: #f3f3f3;
-}
