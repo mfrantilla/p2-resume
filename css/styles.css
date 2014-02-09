@@ -1,3 +1,4 @@
+/* HIJACKED TAGS AND BASIC STUFF */
 body {
 	background: url("../img/bg.png");
 }
@@ -27,6 +28,7 @@ p {
 	font-family: georgia, serif;
 }
 
+/* NAVIGATION SHENANIGANS */
 .nav {
  height: 55px;
  font-family: 'Gafata', sans-serif;
@@ -38,12 +40,20 @@ p {
 
 }
 
+.topbox {
+	background: #f3f3f3;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	height: 30px;
+	border-radius: 10px;
+}
+
 nav ul li {
 	list-style: none;
 	display: inline;
 	
 }
-
+/* LINK EFFECTS AND STUFF */
 a:link {
 	text-decoration: none;
 	color: #000;
@@ -66,11 +76,5 @@ section img+p {
 	
 }
 
-.topbox {
-	background: #f3f3f3;
-	padding-bottom: 40px;
-	margin-top: 20px;
-	height: 30px;
-	border-radius: 10px;
-}
+
 
