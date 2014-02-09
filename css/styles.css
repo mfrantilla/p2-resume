@@ -2,24 +2,38 @@ body {
 	background: url("../img/bg.png");
 }
 
+ul {
+	margin-top: 0;
+}
+
 h1 {
 	font-family: 'Pacifico', cursive;
-	font-size:50px;
+	font-size:55px;
 	color: #1E4147;
+	margin: 0 0 0 20px;
+	padding-bottom: 20px;	
+	display: inline;
 }
 
 h2 {
 	color: #819E45;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size: 30px;
+
+}
+
+p {
+	font-family: georgia, serif;
 }
 
 .nav {
-	border-radius: 20px;
-	font-family: 'Carrois Gothic SC', sans-serif;	
-	font-size: 25px;
-	height: 55px;
-	padding-top: 40px;
-	text-align: center;
-	margin-bottom: 10px;
+ height: 55px;
+ font-family: 'Gafata', sans-serif;
+ font-size: 25px;
+ padding-top: 20px;
+ text-align: center;
+ min-width:350px;
+ border-radius: 20px;
 
 }
 
@@ -41,3 +55,20 @@ section img+p {
 
 }
 
+.bubble {
+	padding: 20px 0 0 20px;
+	margin-right: 0px;
+	
+}
+
+.topbox {
+	background: #f3f3f3;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	height: 30px;
+	border-radius: 10px;
+}
+
+#info {
+	background: #f3f3f3;
+}
